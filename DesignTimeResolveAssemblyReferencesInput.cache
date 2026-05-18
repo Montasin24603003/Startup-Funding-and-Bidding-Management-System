@@ -1,0 +1,90 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+
+    public partial class InvestorMsg : Form
+    {
+        int id;
+
+        string connectionString = "data source=NIGHTFURY\\SQLEXPRESS; database=StartupProject; integrated security=SSPI";
+        public InvestorMsg(int userID)
+        {
+            InitializeComponent();
+            id = userID;
+            LoadDetails();
+        }
+
+        private void LoadDetails()
+        {
+            string query = "SELECT Name FROM Users WHERE UserID = @UserID";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@UserID", id);
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        messageTextBox.Text = reader["Name"].ToString();
+                    }
+                }
+            }
+
+        }
+
+        private void InvestorMsg_Load(object sender, EventArgs e)
+        {
+            string query = @"SELECT 
+            s.Title AS StartupTitle,
+            r.FinalAmount,
+            r.FinalEquity
+            FROM Results r
+            INNER JOIN Startups s 
+            ON r.StartupID = s.StartupID
+            WHERE r.UserID = @UserID";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@UserID", id);
+
+                    con.Open();
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    DataTable table = new DataTable();
+                    table.Load(reader);
+
+                    messageDataGridView.DataSource = table;
+
+                    //if (table.Rows.Count == 0)
+                    //{
+                    //    MessageBox.Show("No messages found.");
+                    //}
+                }
+            }
+        }
+
+        private void iReturnBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            InvestorDashboard investorDashboard = new InvestorDashboard(id);
+            investorDashboard.Show();
+        }
+    }
+}

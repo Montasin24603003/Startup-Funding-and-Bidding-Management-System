@@ -1,0 +1,96 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class GenerateReportForm : Form
+    {
+        int id;
+        public GenerateReportForm()
+        {
+            InitializeComponent();
+        }
+
+        public GenerateReportForm(int id)
+        {
+            InitializeComponent();
+            this.id = id;
+
+        }
+
+        string connectionString = "data source=NIGHTFURY\\SQLEXPRESS; database=StartupProject; integrated security=SSPI";
+
+
+        private void LoadHighestBidChart()
+        {
+            chartFunding.Series.Clear();
+
+            Series series = new Series("Highest Bid");
+            series.ChartType = SeriesChartType.Column;
+
+            series.IsValueShownAsLabel = true;
+
+            string query = @"
+    SELECT 
+        S.Title,
+        ISNULL(MAX(B.Amount), 0) AS HighestBid
+    FROM Startups S
+    LEFT JOIN Bids B 
+        ON S.StartupID = B.StartupID
+    GROUP BY S.Title
+    ORDER BY HighestBid DESC";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(query, connection);
+
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    string startupName = reader["Title"].ToString();
+                    decimal highestBid = Convert.ToDecimal(reader["HighestBid"]);
+
+                    series.Points.AddXY(startupName, highestBid);
+                }
+
+                connection.Close();
+            }
+
+            chartFunding.Series.Add(series);
+
+            chartFunding.ChartAreas[0].AxisX.Title = "Startup Names";
+            chartFunding.ChartAreas[0].AxisY.Title = "Highest Bid Amount";
+            chartFunding.ChartAreas[0].AxisX.Interval = 1;
+
+            chartFunding.Titles.Clear();
+            chartFunding.Titles.Add("Highest Bid per Startup");
+        }
+
+
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            AdminDashForm adminDash = new AdminDashForm(id);
+            adminDash.Show();
+            this.Hide();
+        }
+
+        private void GenerateReportForm_Load(object sender, EventArgs e)
+        {
+
+            LoadHighestBidChart();
+        }
+    }
+}

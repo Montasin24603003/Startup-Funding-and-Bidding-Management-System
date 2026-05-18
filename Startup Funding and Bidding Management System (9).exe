@@ -1,0 +1,154 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class LoginForm : Form
+    {
+        public LoginForm()
+        {
+            InitializeComponent();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbShow.Checked)
+            {
+                tbPassword.UseSystemPasswordChar = false;
+            }
+            else { 
+                   tbPassword.UseSystemPasswordChar= true;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RegisterForm register = new RegisterForm();
+            this.Hide();
+            register.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            string email = tbEmail.Text;
+            string password = tbPassword.Text;
+            string role = "";
+
+            if (rbFounder.Checked)
+            {
+                role = "Founder";
+            }
+            else if (rbInvestor.Checked)
+            {
+                role = "Investor";
+            }
+            else if (rbAdmin.Checked)
+            {
+                role = "Admin";
+            }
+            else
+            {
+                MessageBox.Show("Please select a Role.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Please enter both Email and Password.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string connectionString = "data source=NIGHTFURY\\SQLEXPRESS; database=StartupProject; integrated security=SSPI";
+            string query = "SELECT UserID FROM Users WHERE Email = @Email AND Password COLLATE SQL_Latin1_General_CP1_CS_AS = @Password AND Role = @Role";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@Password", password);
+                    command.Parameters.AddWithValue("@Role", role);
+
+                    connection.Open();
+
+                    object result = command.ExecuteScalar();
+
+                    if (result != null)
+                    {
+                        int userId = Convert.ToInt32(result);
+
+                        MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Hide();
+
+                        
+
+                        if (rbFounder.Checked)           
+                        {
+                            FounderDashForm founder = new FounderDashForm(userId);  
+                            founder.Show();
+                            this.Hide();
+                        }
+
+                        else if (rbInvestor.Checked)     
+                        {
+                            InvestorDashboard investor = new InvestorDashboard(userId);   
+                            investor.Show();
+                            this.Hide();
+                        }
+
+                        else if (rbAdmin.Checked)
+                        {
+                            AdminDashForm admin = new AdminDashForm(userId);
+                            admin.Show();
+                            this.Hide();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Email or Password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
+        private void btnGuest_Click(object sender, EventArgs e)
+        {
+            GuestForm guest = new GuestForm();
+            this.Hide();
+            guest.Show();
+        }
+
+        private void tbEmail_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                tbPassword.Focus();
+            }
+        }
+    }
+}

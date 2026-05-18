@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class FounderDashForm : Form
+    {
+
+        int id;
+        public FounderDashForm()
+        {
+            InitializeComponent();
+        }
+        public FounderDashForm(int userId)
+        {
+            InitializeComponent();
+            id = userId;
+            
+        }
+
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm login = new LoginForm();
+            login.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddStartupForm addStartup = new AddStartupForm(id);
+            addStartup.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ViewStartupForm viewStartup = new ViewStartupForm(this, id);
+            viewStartup.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ResultForm result = new ResultForm (this, "Founder", id);
+            result.Show();
+            this.Hide();
+        }
+    }
+}

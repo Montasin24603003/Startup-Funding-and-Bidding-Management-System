@@ -1,0 +1,285 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class EditProfileForm : Form
+    {
+
+        int userID;
+        string connectionString = "data source=NIGHTFURY\\SQLEXPRESS; database=StartupProject; integrated security=true";
+
+        public EditProfileForm(int id)
+        {
+            userID = id;
+            InitializeComponent();
+            LoadDetails();
+            LoadDetailsofInvestor();
+
+        }
+
+        private void LoadDetails()
+        {
+            string query = "SELECT Name, Email FROM Users WHERE UserID = @Id";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Id", userID);
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        // Populate the text boxes with the retrieved data
+                        iNameEditTextBox.Text = reader["Name"].ToString();
+                        iEmailEditTextBox.Text = reader["Email"].ToString();
+                        //textBox3.Text = reader["Age"].ToString();
+                        //textBox4.Text = reader["Address"].ToString();
+                    }
+                    else
+                    {
+                        //MessageBox.Show("No details found for the given ID.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        //Close(); // Close the form if no data is found
+                    }
+                }
+            }
+
+        }
+
+        private void LoadDetailsofInvestor()
+        {
+            string query = "SELECT Profession, Organization, ShortIntro FROM InvestorProfile WHERE UserID = @Id";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Id", userID);
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        // Populate the text boxes with the retrieved data
+                        //iNameTextBox.Text = reader["Name"].ToString();
+                        //iBEmailTextBox.Text = reader["Email"].ToString();
+                        iProfessionEditTextBox.Text = reader["Profession"].ToString();
+                        iOrganizationEditTextBox.Text = reader["Organization"].ToString();
+                        iBioEditTextBox.Text = reader["ShortIntro"].ToString();
+                    }
+                    else
+                    {
+                        //MessageBox.Show("No details found for the given ID.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        //Close(); // Close the form if no data is found
+                    }
+                }
+            }
+
+        }
+
+        private void EditProfile_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iReturnBtn_Click(object sender, EventArgs e)
+        {
+            ProfileForm profileForm = new ProfileForm(userID);
+            profileForm.Show();
+            this.Hide();
+        }
+
+        private void iDeleteBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iUpdateBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iUpdateBtn_Click_1(object sender, EventArgs e)
+        {
+            string newName = iNameEditTextBox.Text.Trim();
+            string newEmail = iEmailEditTextBox.Text.Trim();
+            string newProfession = iProfessionEditTextBox.Text.Trim();
+            string newOrganization = iOrganizationEditTextBox.Text.Trim();
+            string newBio = iBioEditTextBox.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(newName) || string.IsNullOrWhiteSpace(newEmail) || string.IsNullOrWhiteSpace(newProfession) || string.IsNullOrWhiteSpace(newOrganization) || string.IsNullOrWhiteSpace(newBio))
+            {
+                MessageBox.Show("All fields must be filled out.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string query1 = "UPDATE Users SET Name = @Name, Email = @Email WHERE UserID = @Id";
+            string query2 = "SELECT COUNT(*) FROM InvestorProfile WHERE UserID = @Id";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query1, connection))
+                {
+                    command.Parameters.AddWithValue("@Id", userID);
+                    command.Parameters.AddWithValue("@Name", newName);
+                    command.Parameters.AddWithValue("@Email", newEmail);
+
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        using (SqlCommand checkCmd = new SqlCommand(query2, connection))
+                        {
+                            checkCmd.Parameters.AddWithValue("@Id", userID);
+                            int count = (int)checkCmd.ExecuteScalar();
+
+                            string query3; ;
+
+                            if (count > 0)
+                            {
+                                query3 = "UPDATE InvestorProfile SET Profession = @Profession, Organization = @Organization, ShortIntro = @ShortIntro WHERE UserID = @Id";
+                            }
+                            else
+                            {
+                                query3 = "INSERT INTO InvestorProfile (UserID, Profession, Organization, ShortIntro) VALUES (@Id, @Profession, @Organization, @ShortIntro)";
+                            }
+
+                            using (SqlCommand command2 = new SqlCommand(query3, connection))
+                            {
+                                command2.Parameters.AddWithValue("@Id", userID);
+                                command2.Parameters.AddWithValue("@Profession", newProfession);
+                                command2.Parameters.AddWithValue("@Organization", newOrganization);
+                                command2.Parameters.AddWithValue("@ShortIntro", newBio);
+                                command2.ExecuteNonQuery();
+                            }
+                        }
+                        //MessageBox.Show("Record updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        //Close(); // Optionally close the form after a successful update
+                        iUpdateMessageDialog.Show();
+                        ProfileForm profileForm1 = new ProfileForm(userID);
+                        profileForm1.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No record was updated. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
+        private void iDeleteBtn_Click_1(object sender, EventArgs e)
+        {
+            DialogResult result = ideleteProfileMessageDialog.Show();
+
+            if (result == DialogResult.Yes)
+            {
+                string deleteBids = "DELETE FROM Bids WHERE UserID = @Id";
+                string deleteResults = "DELETE FROM Results WHERE UserID = @Id";
+                string deleteStartups = "DELETE FROM Startups WHERE UserID = @Id";
+                string deleteInvestor = "DELETE FROM InvestorProfile WHERE UserID = @Id";
+                string deleteUser = "DELETE FROM Users WHERE UserID = @Id";
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    int rowsAffected = 0;
+
+                    using (SqlCommand cmd1 = new SqlCommand(deleteBids, connection))
+                    {
+                        cmd1.Parameters.AddWithValue("@Id", userID);
+                        cmd1.ExecuteNonQuery();
+                    }
+
+                    using (SqlCommand cmd2 = new SqlCommand(deleteResults, connection))
+                    {
+                        cmd2.Parameters.AddWithValue("@Id", userID);
+                        cmd2.ExecuteNonQuery();
+                    }
+
+                    using (SqlCommand cmd3 = new SqlCommand(deleteStartups, connection))
+                    {
+                        cmd3.Parameters.AddWithValue("@Id", userID);
+                        cmd3.ExecuteNonQuery();
+                    }
+
+                    using (SqlCommand cmd4 = new SqlCommand(deleteInvestor, connection))
+                    {
+                        cmd4.Parameters.AddWithValue("@Id", userID);
+                        cmd4.ExecuteNonQuery();
+                    }
+
+                    using (SqlCommand cmd5 = new SqlCommand(deleteUser, connection))
+                    {
+                        cmd5.Parameters.AddWithValue("@Id", userID);
+                        rowsAffected = cmd5.ExecuteNonQuery();
+                    }
+
+                    if (rowsAffected > 0)
+                    {
+                        iConfirmDeletionMessageDialog.Show();
+
+                        this.Close();
+
+                        LoginForm login = new LoginForm();
+                        login.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No profile was found to delete.",
+                            "Error",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
+        private void iNameEditTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                iEmailEditTextBox.Focus();
+            }
+        }
+
+        private void iEmailEditTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                iProfessionEditTextBox.Focus();
+            }
+        }
+
+        private void iProfessionEditTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                iOrganizationEditTextBox.Focus();
+            }
+        }
+
+        private void iOrganizationEditTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                iBioEditTextBox.Focus();
+            }
+        }
+    }
+}

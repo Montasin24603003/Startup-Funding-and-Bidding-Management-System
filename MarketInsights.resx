@@ -1,0 +1,176 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class InvestorDashboard : Form
+    {
+
+        private int id;
+        string connectionString = "data source=NIGHTFURY\\SQLEXPRESS; database=StartupProject; integrated security=SSPI";
+
+        public InvestorDashboard()
+        {
+            InitializeComponent();
+        }
+
+        public InvestorDashboard(int userId)
+        {
+            InitializeComponent();
+            id = userId;
+            LoadDetails();
+        }
+
+        private void LoadDetails()
+        {
+            string query = "SELECT Name FROM Users WHERE UserID = @UserID";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@UserID", id);
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        InvestorNameDashboardTextBox.Text = reader["Name"].ToString();
+                    }
+                }
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void iTopPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void InvestorDashForm_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT StartupID, Amount, EquityRequested FROM Bids WHERE UserID = @UserID";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, con))
+                {
+                    command.Parameters.AddWithValue("@UserID", id);
+
+                    con.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    DataTable dataTable = new DataTable();
+                    dataTable.Load(reader);
+
+                    recentBidDataGridView.DataSource = dataTable;
+                }
+            }
+        }
+
+        private void iBrowseStartup_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void iLogoutBtn_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void iProfileBtn_Click(object sender, EventArgs e)
+        {
+            ProfileForm profileForm = new ProfileForm(id);
+            profileForm.Show();
+            this.Hide();
+        }
+
+        private void iMyBidBtn_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void iRefresshBtn_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT StartupID, Amount, EquityRequested FROM Bids WHERE UserID = @UserID";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, con))
+                {
+                    command.Parameters.AddWithValue("@UserID", id);
+
+                    con.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    DataTable dataTable = new DataTable();
+                    dataTable.Load(reader);
+
+                    recentBidDataGridView.DataSource = dataTable;
+                }
+            }
+        }
+
+        private void iLogoutBtn_Click_1(object sender, EventArgs e)
+        {
+			DialogResult result = logoutConfirmMsg.Show();
+
+			if (result == DialogResult.Yes)
+			{
+				this.Close();
+				LoginForm login = new LoginForm();
+				login.ShowDialog();
+			}
+			else
+			{
+				return;
+			}
+
+		}
+
+        private void messageBtn_Click(object sender, EventArgs e)
+        {
+			this.Hide();
+			InvestorMsg msgForm = new InvestorMsg(id);
+			msgForm.Show();
+		}
+
+        private void iBrowseStartup_Click_1(object sender, EventArgs e)
+        {
+			InvestorBrowseStartupForm viewStartup = new InvestorBrowseStartupForm(this, id);
+			viewStartup.Show();
+			this.Hide();
+		}
+    }
+}

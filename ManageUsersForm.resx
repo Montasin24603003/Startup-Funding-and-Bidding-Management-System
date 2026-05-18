@@ -1,0 +1,149 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class InvestorBrowseStartupForm : Form
+    {
+        int loggedinUserID;
+        Form back;
+        string connectionString = "data source=NIGHTFURY\\SQLEXPRESS; database=StartupProject; integrated security=SSPI";
+
+
+        private void FillDataGridView(string query)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, con))
+                {
+                    con.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+                    DataTable dataTable = new DataTable();
+                    dataTable.Load(reader);
+                    searchResultDataGridView.DataSource = dataTable;
+                }
+            }
+
+        }
+
+        public InvestorBrowseStartupForm()
+        {
+            InitializeComponent();
+        }
+
+        public InvestorBrowseStartupForm(Form reff, int userID)
+        {
+            InitializeComponent();
+            loggedinUserID = userID;
+            back = reff;
+            LoadDetails();
+        }
+
+        private void LoadDetails()
+        {
+            string query = "SELECT Name FROM Users WHERE UserID = @UserID";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@UserID", loggedinUserID);
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        InvestorNameBrowseStrtupTextBox.Text = reader["Name"].ToString();
+                    }
+                }
+            }
+
+        }
+
+        private void InvestorBrowseStartupForm_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT StartupID, Title, Description, RequiredAmount, EquityOffered, Deadline FROM Startups";
+            FillDataGridView(query);
+        }
+
+        private void iSearchBtn_Click(object sender, EventArgs e)
+        {
+            string searchValue = iSearchTextBox.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(searchValue))
+            {
+                MessageBox.Show("Please enter a search term.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string query = @"SELECT * FROM Startups WHERE Title LIKE @searchTerm";
+            //    @"SELECT * FROM Startups
+            //WHERE CAST(StartupID AS NVARCHAR) LIKE @searchTerm
+            //OR CAST(UserID AS NVARCHAR) LIKE @searchTerm
+            //OR Title LIKE @searchTerm
+            //OR Description LIKE @searchTerm
+            //OR CAST(RequiredAmount AS NVARCHAR) LIKE @searchTerm
+            //OR CAST(EquityOffered AS NVARCHAR) LIKE @searchTerm
+            //OR CAST(Deadline AS NVARCHAR) LIKE @searchTerm";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@searchTerm", "%" + searchValue + "%");
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+
+                    searchResultDataGridView.DataSource = dataTable;
+
+                    if (dataTable.Rows.Count == 0)
+                    {
+                        MessageBox.Show("No matching rows found.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+        }
+
+        private void iReturnBtn_Click(object sender, EventArgs e)
+        {
+            back.Show();
+            this.Hide();
+        }
+
+        private void iRefresshBtn_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT StartupID, Title, Description, RequiredAmount, EquityOffered, Deadline FROM Startups";
+            FillDataGridView(query);
+        }
+
+        private void placeBidBtn_Click(object sender, EventArgs e)
+        {
+            if(searchResultDataGridView.SelectedRows.Count > 0)
+            {
+                int startupID = Convert.ToInt32(searchResultDataGridView.SelectedRows[0].Cells["StartupID"].Value);
+
+                int investorerUserID = loggedinUserID; // logged in investor er UserID ekhane ashbe
+
+                PlaceBidForm placeBid = new PlaceBidForm(startupID, investorerUserID, this);
+                placeBid.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Please select a startup first.");
+            }
+        }
+    }
+}

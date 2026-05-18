@@ -1,0 +1,260 @@
+﻿namespace Startup_Funding_and_Bidding_Management_System
+{
+    partial class LoginForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.tbEmail = new System.Windows.Forms.TextBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.rbFounder = new System.Windows.Forms.RadioButton();
+            this.rbInvestor = new System.Windows.Forms.RadioButton();
+            this.lblRole = new System.Windows.Forms.Label();
+            this.cbShow = new System.Windows.Forms.CheckBox();
+            this.btnGuest = new System.Windows.Forms.Button();
+            this.rbAdmin = new System.Windows.Forms.RadioButton();
+            this.lblWelcome = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.BackColor = System.Drawing.Color.Transparent;
+            this.lblEmail.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.Color.White;
+            this.lblEmail.Location = new System.Drawing.Point(219, 98);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(50, 20);
+            this.lblEmail.TabIndex = 0;
+            this.lblEmail.Text = "Email";
+            this.lblEmail.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.BackColor = System.Drawing.Color.Transparent;
+            this.lblPassword.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.ForeColor = System.Drawing.Color.White;
+            this.lblPassword.Location = new System.Drawing.Point(191, 149);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(79, 20);
+            this.lblPassword.TabIndex = 1;
+            this.lblPassword.Text = "Password";
+            this.lblPassword.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // tbEmail
+            // 
+            this.tbEmail.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbEmail.Location = new System.Drawing.Point(288, 94);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(229, 30);
+            this.tbEmail.TabIndex = 2;
+            this.tbEmail.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tbEmail.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbEmail_KeyDown);
+            // 
+            // tbPassword
+            // 
+            this.tbPassword.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPassword.Location = new System.Drawing.Point(288, 145);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(231, 30);
+            this.tbPassword.TabIndex = 3;
+            this.tbPassword.UseSystemPasswordChar = true;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(255, 262);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(131, 57);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnRegister
+            // 
+            this.btnRegister.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegister.Location = new System.Drawing.Point(428, 262);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(131, 57);
+            this.btnRegister.TabIndex = 5;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // rbFounder
+            // 
+            this.rbFounder.AutoSize = true;
+            this.rbFounder.BackColor = System.Drawing.Color.Transparent;
+            this.rbFounder.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbFounder.ForeColor = System.Drawing.Color.White;
+            this.rbFounder.Location = new System.Drawing.Point(296, 213);
+            this.rbFounder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rbFounder.Name = "rbFounder";
+            this.rbFounder.Size = new System.Drawing.Size(90, 24);
+            this.rbFounder.TabIndex = 6;
+            this.rbFounder.TabStop = true;
+            this.rbFounder.Text = "Founder";
+            this.rbFounder.UseVisualStyleBackColor = false;
+            // 
+            // rbInvestor
+            // 
+            this.rbInvestor.AutoSize = true;
+            this.rbInvestor.BackColor = System.Drawing.Color.Transparent;
+            this.rbInvestor.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbInvestor.ForeColor = System.Drawing.Color.White;
+            this.rbInvestor.Location = new System.Drawing.Point(403, 213);
+            this.rbInvestor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rbInvestor.Name = "rbInvestor";
+            this.rbInvestor.Size = new System.Drawing.Size(89, 24);
+            this.rbInvestor.TabIndex = 7;
+            this.rbInvestor.TabStop = true;
+            this.rbInvestor.Text = "Investor";
+            this.rbInvestor.UseVisualStyleBackColor = false;
+            // 
+            // lblRole
+            // 
+            this.lblRole.AutoSize = true;
+            this.lblRole.BackColor = System.Drawing.Color.Transparent;
+            this.lblRole.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRole.ForeColor = System.Drawing.Color.White;
+            this.lblRole.Location = new System.Drawing.Point(227, 216);
+            this.lblRole.Name = "lblRole";
+            this.lblRole.Size = new System.Drawing.Size(48, 22);
+            this.lblRole.TabIndex = 8;
+            this.lblRole.Text = "Role";
+            // 
+            // cbShow
+            // 
+            this.cbShow.AutoSize = true;
+            this.cbShow.BackColor = System.Drawing.Color.Transparent;
+            this.cbShow.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbShow.ForeColor = System.Drawing.Color.White;
+            this.cbShow.Location = new System.Drawing.Point(533, 150);
+            this.cbShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbShow.Name = "cbShow";
+            this.cbShow.Size = new System.Drawing.Size(72, 24);
+            this.cbShow.TabIndex = 9;
+            this.cbShow.Text = "Show";
+            this.cbShow.UseVisualStyleBackColor = false;
+            this.cbShow.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // btnGuest
+            // 
+            this.btnGuest.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuest.Location = new System.Drawing.Point(288, 350);
+            this.btnGuest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGuest.Name = "btnGuest";
+            this.btnGuest.Size = new System.Drawing.Size(251, 31);
+            this.btnGuest.TabIndex = 10;
+            this.btnGuest.Text = "Login as Guest";
+            this.btnGuest.UseVisualStyleBackColor = true;
+            this.btnGuest.Click += new System.EventHandler(this.btnGuest_Click);
+            // 
+            // rbAdmin
+            // 
+            this.rbAdmin.AutoSize = true;
+            this.rbAdmin.BackColor = System.Drawing.Color.Transparent;
+            this.rbAdmin.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbAdmin.ForeColor = System.Drawing.Color.White;
+            this.rbAdmin.Location = new System.Drawing.Point(509, 213);
+            this.rbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rbAdmin.Name = "rbAdmin";
+            this.rbAdmin.Size = new System.Drawing.Size(78, 24);
+            this.rbAdmin.TabIndex = 11;
+            this.rbAdmin.TabStop = true;
+            this.rbAdmin.Text = "Admin";
+            this.rbAdmin.UseVisualStyleBackColor = false;
+            // 
+            // lblWelcome
+            // 
+            this.lblWelcome.AutoSize = true;
+            this.lblWelcome.BackColor = System.Drawing.Color.Gray;
+            this.lblWelcome.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Location = new System.Drawing.Point(91, 34);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(595, 26);
+            this.lblWelcome.TabIndex = 13;
+            this.lblWelcome.Text = "Welcome to Startup Funding and Bidding Management System";
+            // 
+            // LoginForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblWelcome);
+            this.Controls.Add(this.rbAdmin);
+            this.Controls.Add(this.btnGuest);
+            this.Controls.Add(this.cbShow);
+            this.Controls.Add(this.lblRole);
+            this.Controls.Add(this.rbInvestor);
+            this.Controls.Add(this.rbFounder);
+            this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.tbPassword);
+            this.Controls.Add(this.tbEmail);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblEmail);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Login";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.TextBox tbEmail;
+        private System.Windows.Forms.TextBox tbPassword;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.RadioButton rbFounder;
+        private System.Windows.Forms.RadioButton rbInvestor;
+        private System.Windows.Forms.Label lblRole;
+        private System.Windows.Forms.CheckBox cbShow;
+        private System.Windows.Forms.Button btnGuest;
+        private System.Windows.Forms.RadioButton rbAdmin;
+        private System.Windows.Forms.Label lblWelcome;
+    }
+}
+

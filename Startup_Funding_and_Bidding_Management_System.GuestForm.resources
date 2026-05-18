@@ -1,0 +1,129 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class MarketInsights : Form
+    {
+
+
+        string connectionString =
+    "data source=NIGHTFURY\\SQLEXPRESS; database=StartupProject; integrated security=SSPI";
+        public MarketInsights()
+        {
+            InitializeComponent();
+        }
+
+        private void chart2_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT StartupID, FinalAmount FROM dbo.Results";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                SqlDataAdapter da = new SqlDataAdapter(query, con);
+
+                DataTable dt = new DataTable();
+
+                da.Fill(dt);
+
+                chart2.Series.Clear();
+
+                chart2.Titles.Clear();
+
+                chart2.Titles.Add("Final Investment Amount");
+
+                Series series = new Series("Results");
+
+                series.ChartType = SeriesChartType.Line;
+
+                chart2.Series.Add(series);
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    string startupID = row["StartupID"].ToString();
+
+                    double finalAmount = Convert.ToDouble(row["FinalAmount"]);
+
+                    chart2.Series["Results"].Points.AddXY(startupID, finalAmount);
+                }
+            }
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT Title, RequiredAmount FROM dbo.Startups";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                SqlDataAdapter da = new SqlDataAdapter(query, con);
+
+                DataTable dt = new DataTable();
+
+                da.Fill(dt);
+
+                chart1.Series.Clear();
+
+                chart1.Titles.Clear();
+
+                chart1.Titles.Add("Startup Required Amount");
+
+                Series series = new Series("Startups");
+
+                series.ChartType = SeriesChartType.Column;
+
+                chart1.Series.Add(series);
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    string title = row["Title"].ToString();
+
+                    double amount = Convert.ToDouble(row["RequiredAmount"]);
+
+                    chart1.Series["Startups"].Points.AddXY(title, amount);
+                }
+            }
+        }
+
+        private void Market2_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM dbo.InvestorProfile";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+
+                    DataTable table = new DataTable();
+
+                    adapter.Fill(table);
+
+                    dataGridView1.DataSource = table;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void Marketbt1_Click(object sender, EventArgs e)
+        {
+            GuestForm guestForm = new GuestForm();
+            this.Hide();
+            guestForm.Show();
+        }
+    }
+}

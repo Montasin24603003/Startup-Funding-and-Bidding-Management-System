@@ -1,0 +1,240 @@
+﻿namespace Startup_Funding_and_Bidding_Management_System
+{
+    partial class InvestorMsg
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InvestorMsg));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.iTopPanel = new System.Windows.Forms.Panel();
+            this.messageLabel = new System.Windows.Forms.Label();
+            this.messageTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.iReturnBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.iViewStartupCirclePictureBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.messageDataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.iTopPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iViewStartupCirclePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.messageDataGridView)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // iTopPanel
+            // 
+            this.iTopPanel.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            this.iTopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(202)))), ((int)(((byte)(233)))));
+            this.iTopPanel.Controls.Add(this.messageLabel);
+            this.iTopPanel.Controls.Add(this.messageTextBox);
+            this.iTopPanel.Controls.Add(this.iReturnBtn);
+            this.iTopPanel.Controls.Add(this.iViewStartupCirclePictureBox);
+            this.iTopPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iTopPanel.Location = new System.Drawing.Point(0, 0);
+            this.iTopPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.iTopPanel.Name = "iTopPanel";
+            this.iTopPanel.Size = new System.Drawing.Size(884, 62);
+            this.iTopPanel.TabIndex = 13;
+            // 
+            // messageLabel
+            // 
+            this.messageLabel.AutoSize = true;
+            this.messageLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.messageLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(35)))), ((int)(((byte)(116)))));
+            this.messageLabel.Location = new System.Drawing.Point(328, 10);
+            this.messageLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.messageLabel.Name = "messageLabel";
+            this.messageLabel.Size = new System.Drawing.Size(184, 37);
+            this.messageLabel.TabIndex = 14;
+            this.messageLabel.Text = "Message Box";
+            // 
+            // messageTextBox
+            // 
+            this.messageTextBox.BorderThickness = 0;
+            this.messageTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.messageTextBox.DefaultText = "";
+            this.messageTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.messageTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.messageTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.messageTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.messageTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(202)))), ((int)(((byte)(233)))));
+            this.messageTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.messageTextBox.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.messageTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(35)))), ((int)(((byte)(116)))));
+            this.messageTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.messageTextBox.Location = new System.Drawing.Point(617, 20);
+            this.messageTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.messageTextBox.Name = "messageTextBox";
+            this.messageTextBox.PlaceholderText = "";
+            this.messageTextBox.ReadOnly = true;
+            this.messageTextBox.SelectedText = "";
+            this.messageTextBox.Size = new System.Drawing.Size(220, 24);
+            this.messageTextBox.TabIndex = 10;
+            this.messageTextBox.TabStop = false;
+            this.messageTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // iReturnBtn
+            // 
+            this.iReturnBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iReturnBtn.BackgroundImage")));
+            this.iReturnBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iReturnBtn.BorderRadius = 5;
+            this.iReturnBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.iReturnBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.iReturnBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.iReturnBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.iReturnBtn.FillColor = System.Drawing.Color.Transparent;
+            this.iReturnBtn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iReturnBtn.ForeColor = System.Drawing.Color.White;
+            this.iReturnBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(202)))), ((int)(((byte)(233)))));
+            this.iReturnBtn.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iReturnBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.iReturnBtn.Location = new System.Drawing.Point(15, 15);
+            this.iReturnBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.iReturnBtn.Name = "iReturnBtn";
+            this.iReturnBtn.Size = new System.Drawing.Size(34, 38);
+            this.iReturnBtn.TabIndex = 9;
+            this.iReturnBtn.Click += new System.EventHandler(this.iReturnBtn_Click);
+            // 
+            // iViewStartupCirclePictureBox
+            // 
+            this.iViewStartupCirclePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.iViewStartupCirclePictureBox.ErrorImage = null;
+            this.iViewStartupCirclePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("iViewStartupCirclePictureBox.Image")));
+            this.iViewStartupCirclePictureBox.ImageRotate = 0F;
+            this.iViewStartupCirclePictureBox.Location = new System.Drawing.Point(837, 15);
+            this.iViewStartupCirclePictureBox.Margin = new System.Windows.Forms.Padding(2);
+            this.iViewStartupCirclePictureBox.Name = "iViewStartupCirclePictureBox";
+            this.iViewStartupCirclePictureBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.iViewStartupCirclePictureBox.Size = new System.Drawing.Size(35, 35);
+            this.iViewStartupCirclePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.iViewStartupCirclePictureBox.TabIndex = 0;
+            this.iViewStartupCirclePictureBox.TabStop = false;
+            // 
+            // messageDataGridView
+            // 
+            this.messageDataGridView.AllowUserToAddRows = false;
+            this.messageDataGridView.AllowUserToDeleteRows = false;
+            this.messageDataGridView.AllowUserToResizeColumns = false;
+            this.messageDataGridView.AllowUserToResizeRows = false;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.messageDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.messageDataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.messageDataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(244)))), ((int)(((byte)(254)))));
+            this.messageDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.messageDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.messageDataGridView.ColumnHeadersHeight = 30;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.messageDataGridView.DefaultCellStyle = dataGridViewCellStyle6;
+            this.messageDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.messageDataGridView.Location = new System.Drawing.Point(11, 118);
+            this.messageDataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.messageDataGridView.MultiSelect = false;
+            this.messageDataGridView.Name = "messageDataGridView";
+            this.messageDataGridView.ReadOnly = true;
+            this.messageDataGridView.RowHeadersVisible = false;
+            this.messageDataGridView.RowHeadersWidth = 51;
+            this.messageDataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.messageDataGridView.Size = new System.Drawing.Size(861, 533);
+            this.messageDataGridView.TabIndex = 18;
+            this.messageDataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.messageDataGridView.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.messageDataGridView.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.messageDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.messageDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.messageDataGridView.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(244)))), ((int)(((byte)(254)))));
+            this.messageDataGridView.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.messageDataGridView.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.messageDataGridView.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.messageDataGridView.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.messageDataGridView.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.messageDataGridView.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.messageDataGridView.ThemeStyle.HeaderStyle.Height = 30;
+            this.messageDataGridView.ThemeStyle.ReadOnly = true;
+            this.messageDataGridView.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.messageDataGridView.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.messageDataGridView.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.messageDataGridView.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.messageDataGridView.ThemeStyle.RowsStyle.Height = 22;
+            this.messageDataGridView.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.messageDataGridView.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(35)))), ((int)(((byte)(116)))));
+            this.label1.Location = new System.Drawing.Point(11, 67);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(232, 45);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Accepted Bids";
+            // 
+            // InvestorMsg
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(884, 661);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.messageDataGridView);
+            this.Controls.Add(this.iTopPanel);
+            this.Name = "InvestorMsg";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "InvestorMsg";
+            this.Load += new System.EventHandler(this.InvestorMsg_Load);
+            this.iTopPanel.ResumeLayout(false);
+            this.iTopPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iViewStartupCirclePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.messageDataGridView)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel iTopPanel;
+        private System.Windows.Forms.Label messageLabel;
+        private Guna.UI2.WinForms.Guna2TextBox messageTextBox;
+        private Guna.UI2.WinForms.Guna2Button iReturnBtn;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox iViewStartupCirclePictureBox;
+        private Guna.UI2.WinForms.Guna2DataGridView messageDataGridView;
+        private System.Windows.Forms.Label label1;
+    }
+}

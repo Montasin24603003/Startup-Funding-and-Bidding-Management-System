@@ -1,0 +1,861 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|f:\\8th semester\\oop2\\final\\project_startup v7\\startup funding and bidding management system\\startup funding and bidding management system\\investormsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\investormsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\investordashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\investordashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\investormsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\investormsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\investordashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\investordashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\livebidtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\livebidtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\livebidtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\livebidtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\guestviewstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\guestviewstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\guestviewstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\guestviewstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\guestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\guestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\guestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\guestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminviewresultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminviewresultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\marketinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\marketinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\marketinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\marketinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminviewresultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminviewresultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\resultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\resultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\resultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\resultform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\managebidsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\managebidsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\managebidsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\managebidsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\placebidform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\placebidform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\placebidform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\placebidform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\managestartupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\managestartupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\managestartupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\managestartupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\addadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\addadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminaddstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminaddstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\addstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\addstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\addstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\addstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\viewstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\viewstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminaddstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminaddstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\admindashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\admindashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\admindashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\admindashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\investorbrowsestartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\investorbrowsestartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\viewstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\viewstartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\investorbrowsestartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\investorbrowsestartupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\founderdashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\founderdashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\founderdashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\founderdashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\addadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\addadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\startup funding and bidding management system\\generatereportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA2BB0B-5EDE-47FB-B608-9CA6BC0AA66E}|Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System.csproj|solutionrelative:startup funding and bidding management system\\generatereportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\LoginForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LoginForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\LoginForm.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAjwJUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T05:06:50.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\LoginForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T05:59:18.115Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\RegisterForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\RegisterForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\RegisterForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:20:18.922Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\RegisterForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:11:01.793Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FounderDashForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\FounderDashForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\FounderDashForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\FounderDashForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\FounderDashForm.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAC4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:48:36.863Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FounderDashForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\FounderDashForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\FounderDashForm.cs",
+              "ToolTip": "D:\\Pictures\\Project_Startup V5\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\FounderDashForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:15:29.049Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddStartupForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddStartupForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AddStartupForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddStartupForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\AddStartupForm.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAASwFwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T06:05:45.817Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddStartupForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddStartupForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AddStartupForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddStartupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T05:52:15.969Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ViewStartupForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ViewStartupForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ViewStartupForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ViewStartupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:12:33.713Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvestorDashForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorDashForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\InvestorDashForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorDashForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\InvestorDashForm.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAADwv6wAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:47:06.178Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvestorDashForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorDashForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\InvestorDashForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorDashForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:22:45.314Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ViewStartupForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ViewStartupForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ViewStartupForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ViewStartupForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\ViewStartupForm.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAACwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:28:18.602Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResultForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ResultForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ResultForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ResultForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:23:59.765Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResultForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ResultForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ResultForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ResultForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\ResultForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:18:09.932Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlaceBidForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\PlaceBidForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\PlaceBidForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\PlaceBidForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T02:08:08.87Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlaceBidForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\PlaceBidForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\PlaceBidForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\PlaceBidForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\PlaceBidForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwIUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:01:56.541Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "InvestorBrowseStartupForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorBrowseStartupForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\InvestorBrowseStartupForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorBrowseStartupForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\InvestorBrowseStartupForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:13:06.263Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GuestForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\GuestForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\GuestForm.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAEwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T02:25:51.173Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EditProfile.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\EditProfile.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\EditProfile.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\EditProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:35:45.835Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InvestorBrowseStartupForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorBrowseStartupForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\InvestorBrowseStartupForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorBrowseStartupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:10:55.678Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GuestForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\GuestForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V5\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\Project_Startup V5\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T02:22:34.207Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EditProfile.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\EditProfile.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\EditProfile.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\EditProfile.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\EditProfile.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:36:33.946Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProfileForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ProfileForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ProfileForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ProfileForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\ProfileForm.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAArwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:31:52.219Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProfileForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ProfileForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ProfileForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:30:25.373Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManageUsersForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ManageUsersForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageUsersForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T01:09:29.484Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManageStartupsForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageStartupsForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ManageStartupsForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageStartupsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T02:49:39.565Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ManageStartupsForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageStartupsForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ManageStartupsForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageStartupsForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\ManageStartupsForm.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwB4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T02:55:30.424Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManageUsersForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ManageUsersForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageUsersForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\ManageUsersForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T01:26:30.402Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AdminDashForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminDashForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminDashForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminDashForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\AdminDashForm.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAhwD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:59:57.309Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvestorMsg.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorMsg.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\InvestorMsg.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorMsg.cs [Design]",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\InvestorMsg.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T01:46:46.323Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvestorMsg.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorMsg.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\InvestorMsg.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\InvestorMsg.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\InvestorMsg.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwFYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T01:48:03.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LiveBidTracker.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LiveBidTracker.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\LiveBidTracker.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LiveBidTracker.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\LiveBidTracker.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:42:13.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LiveBidTracker.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LiveBidTracker.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\LiveBidTracker.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V5\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LiveBidTracker.cs [Design]",
+              "RelativeToolTip": "..\\..\\Project_Startup V5\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\LiveBidTracker.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:40:23.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GuestViewStartUp.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestViewStartUp.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\GuestViewStartUp.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestViewStartUp.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\GuestViewStartUp.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAawC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:36:16.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GuestViewStartUp.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestViewStartUp.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\GuestViewStartUp.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GuestViewStartUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:35:42.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MarketInsights.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\MarketInsights.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\MarketInsights.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\MarketInsights.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\MarketInsights.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:31:34.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MarketInsights.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\MarketInsights.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\MarketInsights.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\MarketInsights.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:28:36.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminViewResultForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminViewResultForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminViewResultForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminViewResultForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:28:57.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminViewResultForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminViewResultForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminViewResultForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminViewResultForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\AdminViewResultForm.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:35:17.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminProfileForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminProfileForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminProfileForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:42:43.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminProfileForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminProfileForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminProfileForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminProfileForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\AdminProfileForm.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAqwIUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:46:21.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManageBidsForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageBidsForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ManageBidsForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageBidsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:09:57.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageBidsForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageBidsForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\ManageBidsForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\ManageBidsForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\ManageBidsForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:14:35.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddAdminForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddAdminForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AddAdminForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddAdminForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\AddAdminForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:41:38.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdminAddUser.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddUser.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminAddUser.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddUser.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\AdminAddUser.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwFwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T01:43:02.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdminDashForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminDashForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminDashForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminDashForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:29:18.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminAddStartup.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddStartup.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminAddStartup.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddStartup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T22:47:32.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminAddStartup.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddStartup.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminAddStartup.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddStartup.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\AdminAddStartup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T22:49:00.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminAddUser.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddUser.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AdminAddUser.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AdminAddUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T01:40:12.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GenerateReportForm.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GenerateReportForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\GenerateReportForm.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GenerateReportForm.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\GenerateReportForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T05:50:58.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GenerateReportForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GenerateReportForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\GenerateReportForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GenerateReportForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T07:44:31.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AddAdminForm.cs [Design]",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddAdminForm.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\AddAdminForm.cs",
+              "ToolTip": "D:\\Documents\\Project_Startup V6\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\AddAdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:19:45.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GenerateReportForm.Designer.cs",
+              "DocumentMoniker": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GenerateReportForm.Designer.cs",
+              "RelativeDocumentMoniker": "Startup Funding and Bidding Management System\\GenerateReportForm.Designer.cs",
+              "ToolTip": "F:\\8th Semester\\OOP2\\FINAL\\Project_Startup V7\\Startup Funding and Bidding Management System\\Startup Funding and Bidding Management System\\GenerateReportForm.Designer.cs",
+              "RelativeToolTip": "Startup Funding and Bidding Management System\\GenerateReportForm.Designer.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T07:44:39.877Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

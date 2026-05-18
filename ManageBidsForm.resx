@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Startup_Funding_and_Bidding_Management_System
+{
+    public partial class GuestForm : Form
+    {
+        public GuestForm()
+        {
+            InitializeComponent();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            this.Hide();
+            login.Show();
+
+        }
+
+        private void gstbtn1_Click(object sender, EventArgs e)
+        {
+            MarketInsights marketInsights = new MarketInsights();
+            marketInsights.Show();
+            this.Hide();
+        }
+
+        private void gstbtn2_Click(object sender, EventArgs e)
+        {
+            GuestViewStartUp guestviewStartup = new GuestViewStartUp();
+            guestviewStartup.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            LiveBidTracker liveBidTracker = new LiveBidTracker();
+            liveBidTracker.Show();
+            this.Hide();
+        }
+    }
+}

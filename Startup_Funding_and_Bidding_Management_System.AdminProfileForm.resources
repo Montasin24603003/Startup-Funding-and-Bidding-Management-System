@@ -1,0 +1,179 @@
+﻿namespace Startup_Funding_and_Bidding_Management_System
+{
+    partial class ManageStartupsForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageStartupsForm));
+            this.datagridStartups = new System.Windows.Forms.DataGridView();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.tbSearch = new System.Windows.Forms.TextBox();
+            this.lblSearch = new System.Windows.Forms.Label();
+            this.btnDeleteStartups = new System.Windows.Forms.Button();
+            this.btnAddStartups = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.lblStartupsShown = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.datagridStartups)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // datagridStartups
+            // 
+            this.datagridStartups.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datagridStartups.Location = new System.Drawing.Point(12, 142);
+            this.datagridStartups.Name = "datagridStartups";
+            this.datagridStartups.RowHeadersWidth = 51;
+            this.datagridStartups.RowTemplate.Height = 24;
+            this.datagridStartups.Size = new System.Drawing.Size(610, 215);
+            this.datagridStartups.TabIndex = 18;
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.Location = new System.Drawing.Point(653, 45);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(72, 28);
+            this.btnRefresh.TabIndex = 17;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(570, 45);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(67, 28);
+            this.btnSearch.TabIndex = 16;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // tbSearch
+            // 
+            this.tbSearch.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.Location = new System.Drawing.Point(217, 45);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(331, 28);
+            this.tbSearch.TabIndex = 15;
+            // 
+            // lblSearch
+            // 
+            this.lblSearch.AutoSize = true;
+            this.lblSearch.BackColor = System.Drawing.Color.Transparent;
+            this.lblSearch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearch.ForeColor = System.Drawing.Color.White;
+            this.lblSearch.Location = new System.Drawing.Point(78, 51);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(133, 22);
+            this.lblSearch.TabIndex = 14;
+            this.lblSearch.Text = "Search Startups";
+            // 
+            // btnDeleteStartups
+            // 
+            this.btnDeleteStartups.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteStartups.Location = new System.Drawing.Point(637, 267);
+            this.btnDeleteStartups.Name = "btnDeleteStartups";
+            this.btnDeleteStartups.Size = new System.Drawing.Size(151, 44);
+            this.btnDeleteStartups.TabIndex = 13;
+            this.btnDeleteStartups.Text = "Delete Startups";
+            this.btnDeleteStartups.UseVisualStyleBackColor = true;
+            this.btnDeleteStartups.Click += new System.EventHandler(this.btnDeleteStartups_Click);
+            // 
+            // btnAddStartups
+            // 
+            this.btnAddStartups.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStartups.Location = new System.Drawing.Point(637, 198);
+            this.btnAddStartups.Name = "btnAddStartups";
+            this.btnAddStartups.Size = new System.Drawing.Size(144, 43);
+            this.btnAddStartups.TabIndex = 12;
+            this.btnAddStartups.Text = "Add Startups";
+            this.btnAddStartups.UseVisualStyleBackColor = true;
+            this.btnAddStartups.Click += new System.EventHandler(this.btnAddStartups_Click);
+            // 
+            // btnBack
+            // 
+            this.btnBack.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(29, 386);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(79, 37);
+            this.btnBack.TabIndex = 11;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // lblStartupsShown
+            // 
+            this.lblStartupsShown.AutoSize = true;
+            this.lblStartupsShown.BackColor = System.Drawing.Color.Transparent;
+            this.lblStartupsShown.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStartupsShown.ForeColor = System.Drawing.Color.White;
+            this.lblStartupsShown.Location = new System.Drawing.Point(56, 106);
+            this.lblStartupsShown.Name = "lblStartupsShown";
+            this.lblStartupsShown.Size = new System.Drawing.Size(194, 22);
+            this.lblStartupsShown.TabIndex = 10;
+            this.lblStartupsShown.Text = "All Startups are Shown";
+            // 
+            // ManageStartupsForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.datagridStartups);
+            this.Controls.Add(this.btnRefresh);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.tbSearch);
+            this.Controls.Add(this.lblSearch);
+            this.Controls.Add(this.btnDeleteStartups);
+            this.Controls.Add(this.btnAddStartups);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.lblStartupsShown);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "ManageStartupsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Manage Startups";
+            ((System.ComponentModel.ISupportInitialize)(this.datagridStartups)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView datagridStartups;
+        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.TextBox tbSearch;
+        private System.Windows.Forms.Label lblSearch;
+        private System.Windows.Forms.Button btnDeleteStartups;
+        private System.Windows.Forms.Button btnAddStartups;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Label lblStartupsShown;
+    }
+}

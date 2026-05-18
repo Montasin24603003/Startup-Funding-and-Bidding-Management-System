@@ -1,0 +1,179 @@
+﻿namespace Startup_Funding_and_Bidding_Management_System
+{
+    partial class ManageUsersForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageUsersForm));
+            this.lblUsersShown = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnAddUser = new System.Windows.Forms.Button();
+            this.btnDeleteUser = new System.Windows.Forms.Button();
+            this.lblSearch = new System.Windows.Forms.Label();
+            this.tbSearch = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.datagridUsers = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.datagridUsers)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lblUsersShown
+            // 
+            this.lblUsersShown.AutoSize = true;
+            this.lblUsersShown.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsersShown.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsersShown.ForeColor = System.Drawing.Color.White;
+            this.lblUsersShown.Location = new System.Drawing.Point(68, 142);
+            this.lblUsersShown.Name = "lblUsersShown";
+            this.lblUsersShown.Size = new System.Drawing.Size(175, 22);
+            this.lblUsersShown.TabIndex = 1;
+            this.lblUsersShown.Text = "All Users are Shown";
+            // 
+            // btnBack
+            // 
+            this.btnBack.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(36, 387);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(79, 37);
+            this.btnBack.TabIndex = 2;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnAddUser
+            // 
+            this.btnAddUser.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddUser.Location = new System.Drawing.Point(653, 213);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(104, 43);
+            this.btnAddUser.TabIndex = 3;
+            this.btnAddUser.Text = "Add User";
+            this.btnAddUser.UseVisualStyleBackColor = true;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
+            // 
+            // btnDeleteUser
+            // 
+            this.btnDeleteUser.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteUser.Location = new System.Drawing.Point(653, 286);
+            this.btnDeleteUser.Name = "btnDeleteUser";
+            this.btnDeleteUser.Size = new System.Drawing.Size(111, 44);
+            this.btnDeleteUser.TabIndex = 4;
+            this.btnDeleteUser.Text = "Delete User";
+            this.btnDeleteUser.UseVisualStyleBackColor = true;
+            this.btnDeleteUser.Click += new System.EventHandler(this.btnDeleteUser_Click);
+            // 
+            // lblSearch
+            // 
+            this.lblSearch.AutoSize = true;
+            this.lblSearch.BackColor = System.Drawing.Color.Transparent;
+            this.lblSearch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearch.ForeColor = System.Drawing.Color.White;
+            this.lblSearch.Location = new System.Drawing.Point(83, 58);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(106, 22);
+            this.lblSearch.TabIndex = 5;
+            this.lblSearch.Text = "Search User";
+            // 
+            // tbSearch
+            // 
+            this.tbSearch.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.Location = new System.Drawing.Point(195, 52);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(331, 28);
+            this.tbSearch.TabIndex = 6;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(548, 52);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(67, 28);
+            this.btnSearch.TabIndex = 7;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.Location = new System.Drawing.Point(631, 52);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(72, 28);
+            this.btnRefresh.TabIndex = 8;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
+            // datagridUsers
+            // 
+            this.datagridUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datagridUsers.Location = new System.Drawing.Point(49, 176);
+            this.datagridUsers.Name = "datagridUsers";
+            this.datagridUsers.RowHeadersWidth = 51;
+            this.datagridUsers.RowTemplate.Height = 24;
+            this.datagridUsers.Size = new System.Drawing.Size(584, 191);
+            this.datagridUsers.TabIndex = 9;
+            // 
+            // ManageUsersForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.datagridUsers);
+            this.Controls.Add(this.btnRefresh);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.tbSearch);
+            this.Controls.Add(this.lblSearch);
+            this.Controls.Add(this.btnDeleteUser);
+            this.Controls.Add(this.btnAddUser);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.lblUsersShown);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "ManageUsersForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ManageUsersForm";
+            this.Load += new System.EventHandler(this.ManageUsersForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.datagridUsers)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.Label lblUsersShown;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnAddUser;
+        private System.Windows.Forms.Button btnDeleteUser;
+        private System.Windows.Forms.Label lblSearch;
+        private System.Windows.Forms.TextBox tbSearch;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.DataGridView datagridUsers;
+    }
+}
